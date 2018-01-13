@@ -1,6 +1,5 @@
 class BaseComponent {
-  test() {
-    return "hi"
+  addChild() {
   }
 }
 
