@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.0.4
+- fixes for frame mock
+
 ## 0.0.3
 - Add frame mock
 

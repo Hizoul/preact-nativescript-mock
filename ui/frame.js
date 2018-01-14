@@ -1,19 +1,21 @@
 const BaseComponent = require("../base")
 
-class Frame extends BaseComponent {
-  constructor() {
-    this.navigatedTo = "nowhere yet"
-    this.backCallAmount = 0
-    this.navigate = (makeComp) => {
-      this.navigatedTo = makeComp
-    }
-    this.goBack = () => {
-      this.backCallAmount++
-    }
-    this.topmost = () => this
+const topmostFrameMaker = () => {
+  this.navigatedTo = "nowhere yet"
+  this.backCallAmount = 0
+  this.navigate = (makeComp) => {
+    this.navigatedTo = makeComp()
   }
+  this.goBack = () => {
+    this.backCallAmount++
+  }
+  return this
 }
 
-module.exports = {
-  Frame
+class Frame extends BaseComponent {
 }
+
+const topmostFrame = topmostFrameMaker()
+Frame.topmost = () => topmostFrame
+
+module.exports = Frame
