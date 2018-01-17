@@ -1,7 +1,10 @@
 # Changelog
 
+## 0.0.6
+- add empty `_removeViev` function
+
 ## 0.0.5
-- add mock for 'addEventListener' and 'removeEventListener'
+- add mock for `addEventListener` and `removeEventListener`
 
 ## 0.0.4
 - fixes for frame mock

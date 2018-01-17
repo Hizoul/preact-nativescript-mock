@@ -4,6 +4,9 @@ class BaseComponent {
   }
   addChild() {
   }
+  _removeView() {
+    
+  }
   addEventListener(name, func, node) {
     this._eventListener[name] = func
   }
