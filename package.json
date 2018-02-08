@@ -1,6 +1,6 @@
 {
   "name": "preact-nativescript-mock",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Mock for testing preact-to-nativescript Apps",
   "main": "index.js",
   "author": "hizoul",

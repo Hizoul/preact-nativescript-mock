@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.0.7
+- add all preact-nativescript-component mocks
+
 ## 0.0.6
 - add empty `_removeViev` function
 

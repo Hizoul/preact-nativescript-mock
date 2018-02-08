@@ -4,6 +4,8 @@ class BaseComponent {
   }
   addChild() {
   }
+  removeChild() {
+  }
   _removeView() {
     
   }
